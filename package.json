@@ -1,0 +1,41 @@
+{
+  "name": "reactstrap-issue",
+  "version": "1.0.0",
+  "description": "Example project where reactstrap 8 types does not match react 18 types.",
+  "scripts": {
+    "rollup": "rollup -c",
+    "tsc": "tsc"
+  },
+  "author": "Stusu",
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "reactstrap": "^8.10.1"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "postcss": "^8.4.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.10.1",
+    "rollup-plugin-dts": "^5.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  }
+}
